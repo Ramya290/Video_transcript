@@ -6,3 +6,4 @@ pathlib
 textblob
 gtts
 beautifulsoup4
+reportlab
