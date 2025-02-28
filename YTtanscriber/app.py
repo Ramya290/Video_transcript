@@ -182,7 +182,7 @@ def extract_transcript_details(youtube_video_url):
 
 # Function to generate content using Google Gemini
 def generate_gemini_content(transcript_text, length):
-    model = genai.GenerativeModel("gemini-pro")
+    model = genai.GenerativeModel("gemini-1.5-pro-latest")
     prompt = base_prompt.format(length)
     response = model.generate_content(prompt + transcript_text)
     return response.text if response.text else None
