@@ -3,3 +3,6 @@ streamlit
 google-generativeai
 python-dotenv
 pathlib
+textblob
+gtts
+BeautifulSoup
